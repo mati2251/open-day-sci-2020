@@ -1,0 +1,32 @@
+img{
+    width: 50%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+body{
+    text-align: center;
+    background-color: #ece4de;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1{
+    font-size: 200px;
+    margin: 0;
+    -webkit-text-fill-color: #ece4de;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #f93f32;
+    color: #ece4de;
+}
+
+h1:nth-child(3){
+    -webkit-text-fill-color: #f93f32;
+}
+
+h1:nth-child(3) span{
+    -webkit-text-fill-color: #000000;
+}
+
+h1 span{
+    -webkit-text-stroke-color: #000000;
+}
